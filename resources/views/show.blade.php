@@ -16,15 +16,17 @@
         </style>
     </head>
     <body class="antialiased">
-        <h2>automobili</h2>
+        <h2>automobil</h2>
+
+        <p>{{$car->producer}}</p>
 
 
-        <ul>
+        {{-- <ul>
         @foreach ($cars as $car)
-            <li><a href= "{{route('OnlyCar',['id'=> $car->id])}}">{{$car->title}}</a></li>
+            <li>{{$car->title}}</li>
 
         @endforeach
-        </ul>
+        </ul> --}}
         
     </body>
 </html>
